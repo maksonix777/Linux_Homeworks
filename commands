@@ -1,0 +1,24 @@
+whoami				  - user name
+pwd           			  - print working directory
+ls            			  - list
+ls --help      			  - help
+ls -a         			  - list all
+ls -l          			  - list long
+ls -la         			  - list long all
+ls -1		   			  - list in column
+clear          			  - clear screen
+cd             			  - call directory
+cd ..          			  - call directory two step back
+cd /home       		    	  - call directory /home
+cd /                	    	  - call directory root
+mkdir         			  - make direcotry
+mkdir -p	   			  - make directory/file
+tree          			  - directory tree
+cp					  - copy file
+cp -r					  - copy directory
+mv		  			  - move file/directory
+rmdir       			  - remove empty directory /file
+rm -r		 			  - remove directory/file
+&&	  	                    - tags in one line
+history > history_05_24.txt     - history
+export_file history_05_24.txt	  - export file on hard disc
