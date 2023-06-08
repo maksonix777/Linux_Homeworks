@@ -1,0 +1,14 @@
+   0 cd /tmp/
+   1 vi file.txt
+   2 clear
+   3 df -h
+   4 df -h | head -3
+   5 df -h | head -3 > file.txt 
+   6 ls -l
+   7 chmod g+w file.txt
+   8 chmod u-r file.txt
+   9 chmod o+x file.txt
+  10 ls -l
+  11 cat file.txt
+  12 history
+  13 history > homework_3.txt
