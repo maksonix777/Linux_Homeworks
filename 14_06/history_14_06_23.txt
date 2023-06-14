@@ -1,0 +1,19 @@
+   0 cd /
+   1 ls
+   2 vi tmp/file.txt
+   3 cd /tmp/
+   4 ls
+   5 tree /tmp
+   6 ls -a
+   7 touch file.txt
+   8 df -h
+   9 df -h | head -3 >> file.txt
+  10 ls
+  11 chmod g+w file.txt
+  12 ls -l
+  13 chmod u-r file.txt
+  14 chmod g+w file.txt
+  15 chmod o+x  file.txt
+  16 ls 
+  17 ls -l
+  18 history >> history_14_06_23.txt
