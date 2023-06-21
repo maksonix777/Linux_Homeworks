@@ -1,0 +1,14 @@
+
+#!/bin/bash
+USER="Maria"
+echo "$(date)"
+echo "Hello, $USER!"
+pwd#!/bin/bash
+
+
+echo  $(date)
+echo "Hello, $USER!"
+ pwd
+
+
+
