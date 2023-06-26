@@ -1,0 +1,14 @@
+                                      
+
+#!/bin/bash
+
+touch  /opt/090523_morning/maria/script5.txt
+Date=$(date +"%Y.%m.%d")
+Time=$(date +"%R")
+
+echo "Script started on the $Time at $Date" > /opt/090523_morning/maria/script5.txt
+ls -al /var/log | wc -l >> /opt/090523_morning/maria/script5.txt
+
+read -p "Stop at Time"
+
+echo "Stop at $Time" >> /opt/090523_morning/maria/script5.txt
